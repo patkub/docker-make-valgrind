@@ -17,10 +17,10 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 RUN mkdir -p /root/build
 VOLUME /root/build
 
-# http://packages.ubuntu.com/de/trusty/build-essential
+# http://packages.ubuntu.com/xenial/build-essential
 RUN apt-get -y install build-essential
 
-# http://packages.ubuntu.com/de/trusty/valgrind
+# http://packages.ubuntu.com/xenial/valgrind
 RUN apt-get -y install valgrind
 
 # launch
