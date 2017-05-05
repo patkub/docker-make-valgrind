@@ -14,3 +14,4 @@ RUN apt-get -y install build-essential
 # http://packages.ubuntu.com/xenial/valgrind
 RUN apt-get -y install valgrind
 
+RUN apt-get -y install hexdump
