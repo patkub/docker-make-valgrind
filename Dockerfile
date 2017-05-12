@@ -20,3 +20,6 @@ RUN apt-get -y install bsdmainutils
 # http://packages.ubuntu.com/xenial/curl
 RUN apt-get -y install curl
 
+# http://packages.ubuntu.com/xenial/git-all
+RUN apt-get -y install git-all
+
