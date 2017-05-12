@@ -16,3 +16,7 @@ RUN apt-get -y install valgrind
 
 # http://packages.ubuntu.com/xenial/bsdmainutils
 RUN apt-get -y install bsdmainutils
+
+# http://packages.ubuntu.com/xenial/curl
+RUN apt-get -y install curl
+
